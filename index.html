@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last of Us - Catálogo de Personagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .character {
+            width: 200px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .character img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .character h2 {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        .character:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="character" onclick="openCharacterInfo('joel')">
+            <img src="/tmp/guest-so5p40/Downloads/images (1).jpeg" alt="Joel">
+            <h2>Joel</h2>
+        </div>
+        <div class="character" onclick="openCharacterInfo('ellie')">
+            <img src="/tmp/guest-so5p40/Downloads/images.jpeg" alt="Ellie">
+            <h2>Ellie</h2>
+        </div>
+        <div class="character" onclick="openCharacterInfo('abby')">
+            <img src="/tmp/guest-so5p40/Downloads/images (2).jpeg" alt="Ellie">
+            <h2>Abby</h2>
+      
+    </div>
+</body>
+</html>
